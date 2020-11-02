@@ -1,4 +1,4 @@
-# Real-Estate-Valuation-Data
+# Housing Prices
 
 **1. The goal of this project is to predict the housing price using various regression models.**    
 
