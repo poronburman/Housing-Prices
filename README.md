@@ -1,6 +1,7 @@
 # [Project 1: Restaurant Reviews Classification](https://github.com/poronburman/Restaurant-Review-Classification)
 
-1. This project uses Natural Language Processing and various Classification models to classify the reviews of a restaurant as being positive or negative.
+1. This project uses Natural Language Processing and various Classification models to predict and classify any future reviews of a restaurant as being positive or negative.
+2. Logistic Regression Classification model performed best in this project.
 2. Listed below are the Confusion Matrix and Classification Report of the various Classification models used in this project, arranged in order of decreasing accuracy:    
 
 ## Logistic Regression
