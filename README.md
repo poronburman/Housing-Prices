@@ -7,10 +7,10 @@
 3. The data analysis for this project followed the following sequential steps:
 * Remove punctuations and stop words from each review.    
 * Convert all words to lowercase.    
-* Created a sparse matrix of the dataset.    
-* Divided the dataset into training and testing data.    
-* Applied the Classification model.    
-* Presented the Data Analysis results: Confusion Matrix and Classification Report.    
+* Create a sparse matrix of the dataset.    
+* Divide the dataset into training and testing data.    
+* Apply the Classification model.    
+* Present the Data Analysis results: Confusion Matrix and Classification Report.    
 
 4. Logistic Regression Classification model performed best in this project and can be used to classify any future reviews for this restaurant as positive or negative.   
 
