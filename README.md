@@ -1,4 +1,16 @@
-# [Project 1: Restaurant Reviews Classification](https://github.com/poronburman/Restaurant-Review-Classification)
+# [Project 1: Image Classification of Cat and Dog](https://github.com/poronburman/Image-Prediction)
+
+1. This project uses Convolutional Neural Network to predict whether an image is a cat or a dog. 
+
+2. This analysis can be used to accurately classify 2D images.
+
+3. The convolutional neural network model used in this analysis was trained on 8000 images; each image being either a cat or a dog. After the model was trained, it was tested to classify two images. It accurately classified the below images being that either of a cat or a dog.
+
+![](images/cat_or_dog_2.png)
+
+![](images/cat_or_dog_1.png)
+
+# [Project 2: Restaurant Reviews Classification](https://github.com/poronburman/Restaurant-Review-Classification)
 
 1. This project uses Natural Language Processing and various Classification models to analyze and learn from the dataset consisting of past reviews of a restaurant. These reviews are classified as being positive or negative. The models can then be used to predict if any future review for that restaurant is a positive review or a negative one. 
 
@@ -72,7 +84,7 @@
 **Classification Report**    
 ![](images/rr_naive_classification_report.png)
 
-# [Project 2: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
+# [Project 3: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
 
 1. This project uses data from customers who already bought a car from a dealership and uses various classification models to learn from the dataset, and to predict if any future customer will buy a SUV car from that dealership or not.  
 
@@ -143,7 +155,7 @@
 **Classification Report**    
 ![](images/cp_svm_classification_report.png)
 
-# [Project 3: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
+# [Project 4: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
 
 1. This project analyzes various features of 50 start up companies and uses various regression models to find the most profitable startup company to invest in.
 
