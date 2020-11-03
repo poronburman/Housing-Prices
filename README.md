@@ -9,63 +9,55 @@
 ### Logistic Regression
 
 **Confusion Matrix**    
-![](Figures/logistic_cm.png)    
+![](images/logistic_cm.png)    
 
 **Classification Report**    
-![](Figures/logistic_classification_report.png)
+![](images/logistic_classification_report.png)
 
 ### K Nearest Neighbors Classifier   
 
 **Confusion Matrix**    
-![](Figures/knn_cm.png)
+![](images/knn_cm.png)
 
 **Classification Report**    
-![](Figures/knn_classification_report.png)    
+![](images/knn_classification_report.png)    
 
 ### Support Vector Machine    
 
 **Confusion Matrix**    
-![](Figures/svm_cm.png)  
+![](images/svm_cm.png)  
 
 **Classification Report**    
-![](Figures/svm_classification_report.png)    
+![](images/svm_classification_report.png)    
 
 ### Random Forest    
 
 **Confusion Matrix**    
-![](Figures/random_forest_cm.png)  
+![](images/random_forest_cm.png)  
 
 **Classification Report**    
-![](Figures/random_classification_report.png)    
+![](images/random_classification_report.png)    
 
 ### Kernel SVM    
 
 **Confusion Matrix**    
-![](Figures/kernel.png)  
+![](images/kernel.png)  
 
 **Classification Report**    
-![](Figures/kernel_classification_report.png)    
+![](images/kernel_classification_report.png)    
 
 ### Decision Tree    
 
 **Confusion Matrix**    
-![](Figures/decision_cm.png)  
+![](images/decision_cm.png)  
 
 **Classification Report**    
-![](Figures/decision_classification_report.png)    
+![](images/decision_classification_report.png)    
 
 ### Naive Bayes    
 
 **Confusion Matrix**    
-![](Figures/naive_cm.png)  
+![](images/naive_cm.png)  
 
 **Classification Report**    
-![](Figures/naive_classification_report.png)
-
-
-
-
-
-
-
-
+![](images/naive_classification_report.png)
