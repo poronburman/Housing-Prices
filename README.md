@@ -143,7 +143,7 @@
 **Classification Report**    
 ![](images/cp_svm_classification_report.png)
 
-# [Project 3: Startups-Profitability](https://github.com/poronburman/Startups-Profitability)
+# [Project 3: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
 
 1. This project analyzes various features of 50 start up companies and uses various regression models to find the most profitable startup company to invest in.
 
