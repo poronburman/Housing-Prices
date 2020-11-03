@@ -9,7 +9,7 @@
 ### Logistic Regression
 
 **Confusion Matrix**    
-![](Figures/logistic_cm.png)
+![](Figures/logistic_cm.png)    
 
 **Classification Report**    
 ![](Figures/logistic_classification_report.png)
