@@ -84,7 +84,26 @@
 **Classification Report**    
 ![](images/rr_naive_classification_report.png)
 
-# [Project 3: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
+# [Project 3: Earmarking Mall Customers](https://github.com/poronburman/Customers-Clustering)
+
+1. This project used different clustering techniques to specifically target customers who visited a Mall.
+2. This analysis can be used to sell products to specific group of customers, based upon their annual salary and spending score.
+2. The dataset has the attributes of the customers who visited a Mall; consisting of their annual salary and spending score.
+3. The analysis was performed in the following sequential steps:
+
+* Find the number of clusters for K means clustering using elbow method    
+![](images/elbow_plot.png)
+
+* Plotting of the k means clustering groups of the customers
+![](images/kmeans_scatterplot.png)
+
+* Dendogram to find the number of clusters for hierarchial clustering
+![](images/hc_dendogram.png)
+
+* Plotting of the hierarchial clustering groups of the customers
+![](images/hc_scatterplot.png)
+
+# [Project 4: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
 
 1. This project uses data from customers who already bought a car from a dealership and uses various classification models to learn from the dataset, and to predict if any future customer will buy a SUV car from that dealership or not.  
 
@@ -97,7 +116,7 @@
 * Predict the result.    
 * Present the Data Analysis results: Confusion Matrix and Classification Report.    
 
-3. Listed below are the Confusion Matrix and Classification Report of the various Classification models used in this project, arranged in order of decreasing accuracy:
+4. Listed below are the Confusion Matrix and Classification Report of the various Classification models used in this project, arranged in order of decreasing accuracy:
 
 ## K Nearest Neighbor
 
@@ -155,7 +174,7 @@
 **Classification Report**    
 ![](images/cp_svm_classification_report.png)
 
-# [Project 4: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
+# [Project 5: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
 
 1. This project analyzes various features of 50 start up companies and uses various regression models to find the most profitable startup company to invest in.
 
