@@ -84,7 +84,34 @@
 **Classification Report**    
 ![](images/rr_naive_classification_report.png)
 
-# [Project 3: Earmarking Mall Customers](https://github.com/poronburman/Customers-Clustering)
+# [Project 3: Wine Quality Customer Segmentation](https://github.com/poronburman/Wine-Quality-Segmentation)
+
+1. This project uses different dimensionality reduction and classification models to predict and segment the customers who are trying to buy wine of different qualities.
+
+2. The analysis was performed in the following sequential steps:
+
+* Used PCA and logistic regression to predict and visualize to which wine category a customer will belong to.
+![](images/pca_cm.png)
+
+![](images/pca_training.png)
+
+![](images/pca_testing.png)
+
+* Used LDA and logistic regression to predict and visualize to which wine category a customer will belong to.
+![](images/lda_cm.png)
+
+![](images/lda_training.png)
+
+![](images/lda_testing.png)
+
+* Used Kernel PCA and logistic regression to predict and visualize to which wine category a customer will belong to.
+![](images/kpca_cm.png)
+
+![](images/kpca_training.png)
+
+![](images/kpca_testing.png)
+
+# [Project 4: Earmarking Mall Customers](https://github.com/poronburman/Customers-Clustering)
 
 1. This project used different clustering techniques to specifically target customers who visited a Mall.
 2. This analysis can be used to sell products to specific group of customers, based upon their annual salary and spending score.
@@ -103,7 +130,7 @@
 * Plotting of the hierarchial clustering groups of the customers
 ![](images/hc_scatterplot.png)
 
-# [Project 4: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
+# [Project 5: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
 
 1. This project uses data from customers who already bought a car from a dealership and uses various classification models to learn from the dataset, and to predict if any future customer will buy a SUV car from that dealership or not.  
 
@@ -174,7 +201,7 @@
 **Classification Report**    
 ![](images/cp_svm_classification_report.png)
 
-# [Project 5: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
+# [Project 6: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
 
 1. This project analyzes various features of 50 start up companies and uses various regression models to find the most profitable startup company to invest in.
 
