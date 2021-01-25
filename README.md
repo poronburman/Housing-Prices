@@ -40,7 +40,7 @@ The heatmap shows how the majority of the HTOs are exclusive for a specific pati
 Hence, this paper provides a very good and efficient approach for demultiplexing cells from multiple samples. This can help us to mix multiple samples with multiple different conditions and run them on the same 10X Chromium chip.
 
 
-# [Project 1: Image Classification of Cat and Dog](https://github.com/poronburman/Image-Prediction)
+# [Project 2: Image Classification of Cat and Dog](https://github.com/poronburman/Image-Prediction)
 
 1. This project uses Convolutional Neural Network to predict whether an image is a cat or a dog. 
 
@@ -52,7 +52,7 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 
 ![](images/cat_or_dog_1.png)
 
-# [Project 2: Restaurant Reviews Classification](https://github.com/poronburman/Restaurant-Review-Classification)
+# [Project 3: Restaurant Reviews Classification](https://github.com/poronburman/Restaurant-Review-Classification)
 
 1. This project uses Natural Language Processing and various Classification models to analyze and learn from the dataset consisting of past reviews of a restaurant. These reviews are classified as being positive or negative. The models can then be used to predict if any future review for that restaurant is a positive review or a negative one. 
 
@@ -126,7 +126,7 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 **Classification Report**    
 ![](images/rr_naive_classification_report.png)
 
-# [Project 3: Wine Quality Customer Segmentation](https://github.com/poronburman/Wine-Quality-Segmentation)
+# [Project 4: Wine Quality Customer Segmentation](https://github.com/poronburman/Wine-Quality-Segmentation)
 
 1. This project uses different dimensionality reduction and classification models to predict and segment the customers who are trying to buy wine of different qualities.
 
@@ -153,7 +153,7 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 
 ![](images/kpca_testing.png)
 
-# [Project 4: Earmarking Mall Customers](https://github.com/poronburman/Customers-Clustering)
+# [Project 5: Earmarking Mall Customers](https://github.com/poronburman/Customers-Clustering)
 
 1. This project used different clustering techniques to specifically target customers who visited a Mall.
 2. This analysis can be used to sell products to specific group of customers, based upon their annual salary and spending score.
@@ -172,7 +172,7 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 * Plotting of the hierarchial clustering groups of the customers
 ![](images/hc_scatterplot.png)
 
-# [Project 5: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
+# [Project 6: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
 
 1. This project uses data from customers who already bought a car from a dealership and uses various classification models to learn from the dataset, and to predict if any future customer will buy a SUV car from that dealership or not.  
 
@@ -243,7 +243,7 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 **Classification Report**    
 ![](images/cp_svm_classification_report.png)
 
-# [Project 6: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
+# [Project 7: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
 
 1. This project analyzes various features of 50 start up companies and uses various regression models to find the most profitable startup company to invest in.
 
