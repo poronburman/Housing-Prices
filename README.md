@@ -1,4 +1,43 @@
-# [Project 1: Cell Hashing to Demultiplex Cells at the Single Cell Resolution](https://github.com/poronburman/Cell-Hashing-to-Demultiplex-Cells-at-the-Single-Cell-Resolution)
+# [Project 1: Clustering of Single Cells](https://github.com/poronburman/Single-Cell-RNA-Sequencing/blob/main/README.md)
+
+This project re-analyzes the publicly available 10X Genomics Single Cell RNA Sequencing dataset, which can be found at https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/pbmc3k. This project clusters single cells isolated from a healthy donor. This technique can be used to cluster cells for different experimental conditions and cohorts.      
+
+Perpheral Blood Mononuclear Cells (PBMCs) were isolated from a healthy donor, library preparation was performed on the 10X Genomics platform, and sequencing was performed on the Illumina NextSeq 500 platform.
+
+Having a look at the UMI counts, it seems that the number of features are mostly between 2000 and 200 and that 5% of the UMI counts map to the mitochondrial RNA. Low-quality cells or empty cells will often have few cells, whereas cell doublets or multiplets wil have high gene count. Also low-quality/ dying cells exhibit extensive mitochondrial contamination. Hence we will filter out the cells which have number of feature more than 2000 and less than 200, and also filter out the cells which UMI counts for mitochondrial genes more than 5%.
+
+![](Images/violinplot.png)    
+
+Looking at the Feature Scatter Plot, there doesn't seem to be any correlation between the total mRNA UMI counts and the total UMI mitochondrial frequency count. There is a positive correlation between the total mRNA UMI count and total feature mRNA UMI count.    
+
+![](Images/featurescatter.png)
+
+After filtering the dataset, I normalized the data using 'LogNormalize' method, where the feature expression measurements for each cell are normalized by the total expression and multipled by a scale factor of 10000.    
+
+After normalization, I identified highly variable features by using the 'FindVariableFeatures' function. This function fits a polynomial regression between log(variance) and the log(mean) of the features. The observed mean and expected variance values given by the fitted line are standardized and variance is calculated on those standardized values. The top 2000 features are displayed below.     
+
+![](Images/variablefeatureplot.png)
+
+Now that I have been able to find the most variable features, we go ahead to perform dimensional reduction to find as to find the differentially expression of the most variable features amongst the cells.    
+
+Using Principal Component Analysis (PCA), displayed below are the differential expression of the genes for the first 5 PCs.  
+
+![](Images/dimheatmap.png)
+
+Now that we have the PCs, we use the elbow method to determine which PCs to use for downstream analysis. The elbow plot below shows that the first 10 PCs give the maximum variance amongst the features.    
+
+![](Images/elbowplot.png)
+
+Now that we know which PCs to use, we use the UMAP reduction method to cluster the cells. Below is the UMAP generated which show 9 different clusters into which the cells are grouped into.   
+
+![](Images/umap.png)
+
+The heatmap representing differentially expressed genes for all the 9 different clusters is shown below.
+
+![](Images/doheatmap.png)
+
+
+# [Project 2: Cell Hashing to Demultiplex Cells at the Single Cell Resolution](https://github.com/poronburman/Cell-Hashing-to-Demultiplex-Cells-at-the-Single-Cell-Resolution)
 
 In this project, I've reanalyzed the data generated from the published paper https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1603-1.
 
@@ -38,7 +77,7 @@ The heatmap shows how the majority of the HTOs are exclusive for a specific pati
 Hence, this paper provides a very good and efficient approach for demultiplexing cells from multiple samples. This can help us to mix multiple samples with multiple different conditions and run them on the same 10X Chromium chip.
 
 
-# [Project 2: Image Classification of Cat and Dog](https://github.com/poronburman/Image-Prediction)
+# [Project 3: Image Classification of Cat and Dog](https://github.com/poronburman/Image-Prediction)
 
 1. This project uses Convolutional Neural Network to predict whether an image is a cat or a dog. 
 
@@ -50,7 +89,8 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 
 ![](images/cat_or_dog_1.png)
 
-# [Project 3: Restaurant Reviews Classification](https://github.com/poronburman/Restaurant-Review-Classification)
+
+# [Project 4: Restaurant Reviews Classification](https://github.com/poronburman/Restaurant-Review-Classification)
 
 1. This project uses Natural Language Processing and various Classification models to analyze and learn from the dataset consisting of past reviews of a restaurant. These reviews are classified as being positive or negative. The models can then be used to predict if any future review for that restaurant is a positive review or a negative one. 
 
@@ -124,7 +164,8 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 **Classification Report**    
 ![](images/rr_naive_classification_report.png)
 
-# [Project 4: Wine Quality Customer Segmentation](https://github.com/poronburman/Wine-Quality-Segmentation)
+
+# [Project 5: Wine Quality Customer Segmentation](https://github.com/poronburman/Wine-Quality-Segmentation)
 
 1. This project uses different dimensionality reduction and classification models to predict and segment the customers who are trying to buy wine of different qualities.
 
@@ -151,7 +192,8 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 
 ![](images/kpca_testing.png)
 
-# [Project 5: Earmarking Mall Customers](https://github.com/poronburman/Customers-Clustering)
+
+# [Project 6: Earmarking Mall Customers](https://github.com/poronburman/Customers-Clustering)
 
 1. This project used different clustering techniques to specifically target customers who visited a Mall.
 2. This analysis can be used to sell products to specific group of customers, based upon their annual salary and spending score.
@@ -170,7 +212,8 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 * Plotting of the hierarchial clustering groups of the customers
 ![](images/hc_scatterplot.png)
 
-# [Project 6: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
+
+# [Project 7: SUV Car Purchase Prediction](https://github.com/poronburman/SUV-Car-Purchase-Prediction)
 
 1. This project uses data from customers who already bought a car from a dealership and uses various classification models to learn from the dataset, and to predict if any future customer will buy a SUV car from that dealership or not.  
 
@@ -241,7 +284,8 @@ Hence, this paper provides a very good and efficient approach for demultiplexing
 **Classification Report**    
 ![](images/cp_svm_classification_report.png)
 
-# [Project 7: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
+
+# [Project 8: Startups Profitability](https://github.com/poronburman/Startups-Profitability)
 
 1. This project analyzes various features of 50 start up companies and uses various regression models to find the most profitable startup company to invest in.
 
